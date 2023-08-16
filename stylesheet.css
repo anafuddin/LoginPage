@@ -1,7 +1,7 @@
 
 
 html {
-  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   min-height: 100vh;
   background-color: black;
 }
@@ -40,25 +40,54 @@ header {
   width: 100%
 }
 
-.form-container {
-  background-color: lightgray;
-}
 
 .sign-up-container {
-  background-color: whitesmoke;
+  background-color: lightgray;
   position: relative;
   width: 42vw;
   color: black;
   display: flex;
   flex-direction: column;
-  text-align: center;
+}
+
+.sign-up-caption {
+  max-width: 75%;
+  position: relative;
+  left: 12%
 }
 
 .sign-up-heading {
-  background-color: aqua;
 
   position: relative;
   left: 10%;
 
   width: 80%;
+}
+
+.form-container {
+  background-color: white;
+}
+
+.form-input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.form-input-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+fieldset {
+  border: none;
+}
+
+input {
+  border-width: 1px;
+  border-color: lightgray;
+  border-radius: 2px;
+  border-style: solid;
 }

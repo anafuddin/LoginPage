@@ -20,9 +20,12 @@
         <div class="sign-up-container">
 
             <div class="sign-up-caption">
-              <p>
-                Not An Actual Sign Up connected to anything, just a demo!            
-              </p>            
+              <h4>
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
+              <br>
+              <br>
+                You <em>know</em> you want to
+              </h4>            
             </div>
 
             
@@ -35,13 +38,30 @@
               </div>
               
               <form action="https://httpbin.org/post" method="post">
+
                 <fieldset>
+                  <div class="form-input- column">
 
-                  <label for="first_name">First Name</label>
-                  <input type="text" name="first_name" id="first_name">
+                    <div class="form-input-row">
+                      <label for="first_name">First Name</label>
+                      <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="form-input-row">
+                      <input type="text" name="first_name" id="first_name">
+                      <input type="text" name="last_name" id="last_name">
+                    </div>
+                    
+                  </div>
+                </fieldset>
+                  
+                <fieldset>
+                  <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email">
 
-                  <label for="last_name">Last Name</label>
-                  <input type="text" name="last_name" id="last_name">
+                  <label for="phone_number">Phone Number</label>
+                  <input type="number" name="phone_number" id="phone_number">
+                  </div>
                 </fieldset>
               </form>
 
